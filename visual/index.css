@@ -1,0 +1,61 @@
+
+body{
+	margin: 0;
+	padding: 0;
+
+}
+.container {
+	background: lightgray;
+	display: flex;
+	flex-direction: row;
+	align-items: stretch;
+	width: 100%;
+	height: 210px;
+	margin: 0 auto;
+}
+/*flex-end
+center
+space-between
+space-around;
+Если justify-content работает с главной осью,
+ то align-items работает с осью, перпендикулярной главной оси. 
+Вернёмся к flex-direction: row и пройдёмся по командам align-items:
+flex-start
+flex-end
+center
+stretch
+baseline
+*/
+.one{
+  
+	background-color:red;
+	
+}
+.one,.two,.three, .purple {
+	margin: 10px 0 10px 10px;
+	height: 50px;
+	width: 50px;
+	
+}
+.two {
+	background-color:yellow;
+
+}
+.three {
+	background-color:green;
+}
+.purple {
+	background-color: orange;
+}
+p {
+    background: url(images/school.png) no-repeat !important;
+    min-height: 500px; /* Минимальная высота */
+    padding-top: 25px; /* Поле слева от текста */
+    text-align: center;
+    width: 500px;
+   }
+   p {
+   	 background: url(images/zontik.jpg) no-repeat;
+   	  min-height: 500px;
+   	}
+   	
